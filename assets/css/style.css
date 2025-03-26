@@ -840,11 +840,12 @@ Nav Menu style
 .navbar-brand {
     display: flex
 	align-items: center
-	padding: 25px 15px;
+	padding: 10px 15px;
 }
 .navbar-brand > img {
     display: block;
-    width: 80%;
+	height: 40px;
+    width: auto;
 	margin-top: 5px;
 }
 
@@ -969,6 +970,14 @@ Featured section style
 }
 .features_item .f_item_text p{
     font-size:14px;
+}
+
+.feature-paragraph {
+    font-size: 1.1em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px; /* Space between the paragraph and the columns */
+    line-height: 1.6;
 }
 
 /*Business Section*/
