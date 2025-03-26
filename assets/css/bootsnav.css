@@ -101,12 +101,14 @@ ul.menu-col li a:focus{
 /* Navbar Full
 =================================*/
 nav.bootsnav.navbar-full{
-    padding-bottom: 10px;
+    min-height: 80px;
+	padding-bottom: 10px;
     padding-top: 10px;
 }
 
 nav.bootsnav.navbar-full .navbar-header{
-    display: block;
+    min-height: 80px;
+	display: block;
     width: 100%;
 }
 
@@ -1002,6 +1004,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         float: none;
         display: block;
         text-align: center;
+		min-height: 80px;
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -1375,7 +1378,8 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
 
 @media (max-width: 767px) {
     nav.navbar.bootsnav .navbar-header {
-        padding-left: 15px;
+        min-height: 80px;
+		padding-left: 15px;
         padding-right: 15px;
     }
     
